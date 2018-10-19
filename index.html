@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato');
+    </style>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body>
+    <div class="main">
+        <form name="calculator" autocomplete="off">
+            <input type="text" name="answer" placeholder="0">
+        </form>
+        <button id="one" value="(" onclick="insert('(')"> ( </button>
+        <button id="one" value=")" onclick="insert(')')"> )</button>
+        <button id="one" value="√" onclick="root()"> √ </button>
+        <button id="one" class="back" onclick="back()"> <img src="/home/srikar/Desktop/Projects/Calculator/backspace-arrow.svg"
+                alt="BackSpace"> </button>
+        <button id="one" value="7" onclick="insert(7)"> 7 </button>
+        <button id="one" value="8" onclick="insert(8)"> 8</button>
+        <button id="one" value="9" onclick="insert(9)"> 9 </button>
+        <button id="one" class="op" value="+" onclick="insert('+')"> + </button>
+        <button id="one" value="4" onclick="insert(4)"> 4 </button>
+        <button id="one" value="5" onclick="insert(5)"> 5 </button>
+        <button id="one" value="6" onclick="insert(6)"> 6 </button>
+        <button id="one" class="op" value="-" onclick="insert('-')"> - </button>
+        <button id="one" value="1" onclick="insert(1)"> 1 </button>
+        <button id="one" value="2" onclick="insert(2)"> 2 </button>
+        <button id="one" value="3" onclick="insert(3)"> 3 </button>
+        <button id="one" class="op cross" value="*" onclick="insert('*')"> * </button>
+        <button id="one" value="0" onclick="insert(0)"> 0 </button>
+        <button id="one" value="." onclick="insert('.')"> . </button>
+        <form name="reset">
+            <button id="two" value="reset" class="c"> C </button>
+        </form>
+        <button id="one" class="op" value="/" onclick="insert('/')"> / </button> <br>
+        <button id="one" class="equal" onclick="calc()"> = </button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
