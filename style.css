@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+    background: rgb(204, 204, 204);
+}
+
+.main {
+    width: 35%;
+    margin: 25px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 400px;
+    border: 2px solid rgb(255,255,255);
+    text-indent: 20px;
+    text-align: right;
+    padding: 25px;
+    font-size: 25px;
+}
+
+button {
+    width: 100px;
+    height: 87px;
+    padding: 25px;
+    display: block;
+    float: left;
+    margin: 0;
+    background: rgb(39, 39, 39);
+    color: beige;
+    font-size: 25px;
+}
+
+.c {
+    background: #ea4335;
+}
+
+.equal {
+    width: 400px;
+    background: #4285f4;
+}
+
+.op {
+    background: #f69a30;
+}
+
+.op.cross {
+    font-size: 35px;
+}
+
+.back {
+    background: #ea4335;
+}
+
